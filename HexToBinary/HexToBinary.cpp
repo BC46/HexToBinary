@@ -7,7 +7,6 @@ bool ConvertHexToBinary(LPCWSTR hexString, DWORD hexLength, BYTE *binaryString) 
         return false;
 
     std::wstring byte;
-    int character;
 
     int j(0);
     for (int i(0); i < hexLength; i += 2) {
